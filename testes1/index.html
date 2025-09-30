@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Maradona | Aluno de Desenvolvimento de Sistemas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Profile Photo Section -->
+    <section class="profile-section">
+        <div class="profile-container">
+            <div class="profile-bubbles">
+                <div class="bubble-purple"></div>
+                <div class="bubble-blue"></div>
+                <div class="profile-card">
+                    <img src="https://lendasdofutebol.com/wp-content/uploads/2021/02/maradona-selecao-1986-350-x-262-optimized.jpg"
+                        alt="Diego Maradona">
+                </div>
+            </div>
+            <h1 class="profile-name">
+                <span class="texto-neon-roxo">Diego</span>
+                <span class="texto-neon-azul">Maradona</span>
+            </h1>
+            <p class="profile-description">
+                Aluno de Desenvolvimento de Sistemas no SENAI Jaguariúna
+            </p>
+            <div class="profile-socials">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <header class="navbar card-transparente">
+        <div class="navbar-container">
+            <a href="#" class="logo"><span class="texto-neon-azul">Diego</span><span
+                    class="texto-neon-roxo">Maradona</span></a>
+            <div class="navbar-links">
+                <a href="#about">Sobre</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#projects">Projetos</a>
+                <a href="#contact">Contato</a>
+            </div>
+            <button class="mobile-menu-button" id="mobile-menu-button">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="mobile-menu card-transparente">
+            <a href="#about">Sobre</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2 class="section-title titulo-secao">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="card-about card-transparente efeito-hover">
+                    <h3 class="card-title-blue">Minha Jornada</h3>
+                    <p class="card-text">
+                        Atualmente sou aluno no SENAI Jaguariúna, cursando Desenvolvimento de Sistemas
+                        e Programação em Python. Já concluí o curso de Power BI em junho de 2025.
+                    </p>
+                    <div>
+                        <h3 class="card-title-purple">Tecnologias que utilizo</h3>
+                        <div class="tech-grid">
+                            <div class="icone-tecnologia html5"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                            <div class="icone-tecnologia css3"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                            <div class="icone-tecnologia js"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                            <div class="icone-tecnologia react"><i class="fab fa-react"></i><span>React</span></div>
+                            <div class="icone-tecnologia cpp"><i class="fas fa-code"></i><span>C/C++</span></div>
+                            <div class="icone-tecnologia arduino"><i class="fas fa-microchip"></i><span>Arduino</span>
+                            </div>
+                            <div class="icone-tecnologia sql"><i class="fas fa-database"></i><span>SQL</span></div>
+                            <div class="icone-tecnologia git"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies-section">
+        <div class="hobbies-container">
+            <h2 class="hobbies-title titulo-secao">Hobbies</h2>
+            <div class="hobbies-grid">
+                <div class="card-hobbie card-transparente efeito-hover">
+                    <i class="fas fa-video"></i>
+                    <h3>Videos</h3>
+                    <p>Filmes, séries, games, curiosidades e outros conteúdos que gosto de assistir.</p>
+                </div>
+                <div class="card-hobbie card-transparente efeito-hover">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Jogos</h3>
+                    <p>Desenvolver habilidades estratégicas e diversão</p>
+                </div>
+                <div class="card-hobbie card-transparente efeito-hover">
+                    <i class="fas fa-users"></i>
+                    <h3>Colaboração</h3>
+                    <p>Trabalhar em grupo e contribuir com projetos coletivos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="projects-container">
+            <h2 class="titulo-secao">Projetos</h2>
+
+            <div class="projects-grid">
+                <!-- Card Projeto 1 -->
+                <article class="card-projeto efeito-hover">
+                    <img src="https://www.valuehost.com.br/blog/wp-content/uploads/2022/09/post_thumbnail-599f9e7b029cf5a3a422b4c502846450.jpeg.webp"
+                        alt="Projeto 1">
+                    <div class="card-projeto-content">
+                        <h3>Trabalho de Conclusão de Curso (TCC)</h3>
+                        <p>Meu TCC sobre uma um Hotel, desenvolvido como parte do curso de Desenvolvimento de Sistemas.
+                        </p>
+                        <a href="https://github.com/ArthurS0/Projeto-Hotel" target="_blank"
+                            rel="noopener noreferrer">Ver Projeto</a>
+                    </div>
+                </article>
+                <!-- Adicione mais <article class="card-projeto efeito-hover"> ... </article> conforme precisar -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title titulo-secao">Contato</h2>
+            <div class="contact-grid">
+                <div class="card-transparente card-contact efeito-hover">
+                    <h3 class="card-title-blue">Entre em contato</h3>
+                    <p class="card-text">Preencha o formulário abaixo para me enviar uma mensagem. Responderei
+                        o mais rápido possível!</p>
+                    <form id="contact-form" class="form-contact">
+                        <input type="text" name="name" placeholder="Seu nome" required class="form-input">
+                        <input type="email" name="email" placeholder="Seu e-mail" required class="form-input">
+                        <textarea name="message" rows="5" placeholder="Sua mensagem" required
+                            class="form-input"></textarea>
+                        <button type="submit" class="form-button">Enviar</button>
+                    </form>
+                </div>
+                <div class="card-transparente card-contact efeito-hover">
+                    <h3 class="card-title-purple">Meus Contatos</h3>
+                    <p class="contact-info"><i class="fas fa-envelope icon-margin"></i> diego.maradona@email.com</p>
+                    <p class="contact-info"><i class="fas fa-phone icon-margin"></i> (19) 99999-9999</p>
+                    <p class="contact-info"><i class="fas fa-map-marker-alt icon-margin"></i> Jaguariúna, SP, Brasil</p>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link blue"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link purple"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link red"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer card-transparente">
+        <div class="footer-container">
+            <p>© 2025 Diego Maradona. Todos os direitos reservados.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
