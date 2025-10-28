@@ -66,6 +66,46 @@ body {
     color: var(--p4);
 }
 
+.header-links {
+    width: auto;
+    flex: 1;
+    display: none;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -1rem;
+    transform: translateX(-5.5%);
+}
+
+.header-links a {
+    color: var(--p2);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header-links a {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1699px) {
+    .header-links a {
+        font-size: 1.75rem;
+    }
+}
+
+@media (min-width: 1435px) {
+    .logo {
+        transform: translateX(1rem);
+    }
+}
+
+.header-links a:hover {
+    color: var(--p4);
+}
+
 .logo img {
     margin-top: -0.5rem;
     height: auto;
@@ -80,12 +120,13 @@ body {
     cursor: pointer;
     display: none;
     margin-top: -0.8rem;
+    transform: translateX(-25.5%);
 }
 
 /* ===== MENU DE PERFIL (DESKTOP) ===== */
 .profile-menu {
     position: fixed;
-    right: 2rem;
+    right: 0%;
     top: 6rem;
     display: flex;
     flex-direction: column;
@@ -94,6 +135,7 @@ body {
     border-radius: 0.75rem;
     padding: 1rem 1.5rem;
     z-index: 100;
+    transform: translateX(-2.5%);
 }
 
 .profile-menu a {
@@ -147,6 +189,7 @@ body {
 }
 
 @media (max-width: 767px) {
+
     .profile-menu,
     .profile-menu-button {
         display: none !important;
@@ -167,6 +210,10 @@ body {
 @media (min-width: 768px) {
     .profile-menu-button {
         display: block;
+    }
+
+    .header-links {
+        display: flex;
     }
 
     .header-links-esquerdo {
@@ -209,7 +256,6 @@ body {
     }
 
     .profile-menu {
-        right: 2rem;
         top: 6rem;
         flex-direction: column;
     }
