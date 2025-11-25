@@ -1,0 +1,60 @@
+  {
+		"nome": "Luiz Inácio Lula da Silva",
+		"cpf": "13131313131",
+		"email": "lula@gmail.com",
+		"senha": "$2b$10$nsssd.H5oX5kNoLPngTKweRGTct4N36IwLKiD63.U20t2r9Lho4Ci"
+  }
+
+
+  
+	{
+		"nome": "Jair Messias Bolsonaro",
+		"cpf": "22222222222",
+		"email": "jairmessiasbolsonaro@gmail.com",
+		"senha": "$2b$10$JhoekSqvqBMhxrJe9RIpi.kvGK2GIrBkaAhbud7GZaZhLJW5hPCwi"
+	}
+
+
+
+
+  {
+		"usuarioId": 1,
+		"numero": "191313-1313"
+	},
+	{
+		"usuarioId": 2,
+		"numero": "192222-2222"
+	}
+
+
+
+
+
+
+  	{
+		"numero": "Suíte Standard",
+		"descricao": "Quarto básico, não tem segredo. Vem com cama, banheiro e geladeira.",
+		"foto": "https://i.pinimg.com/originals/3a/fd/56/3afd56bc9b894cf6bc9ab1dcf71cb79f.jpg",
+		"totalOspedes": 2,
+		"diaria": "200",
+		"reservas": [
+		]
+	}
+
+	{
+		"numero": "Suíte de Luxo",
+		"descricao": "Confortável e aconchegante, com cama de casal e TV.",
+		"foto": "https://pbs.twimg.com/media/EZSMzfVUMAEva34.jpg",
+		"totalOspedes": 2,
+		"diaria": "350",
+		"reservas": []
+	}
+
+	{
+		"numero": "Suíte Master",
+		"descricao": "Ampla suíte com cama king-size, biblioteca, banheiro e vista para a cidade!",
+		"foto": "https://i.pinimg.com/736x/61/68/80/61688062f3f95499a360615a30bdcbd7.jpg",
+		"totalOspedes": 2,
+		"diaria": "500",
+		"reservas": []
+	}
