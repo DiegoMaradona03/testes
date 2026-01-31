@@ -1,5 +1,3 @@
-@import url('https://db.onlinewebfonts.com/c/6ab889bdda7be21423a47e6deea43f6a?family=Mr+Darcy+W01+Regular');
-
 html,
 body {
     padding: 0;
@@ -842,3 +840,4 @@ textarea:focus {
 .hidden {
     display: none !important;
 }
+
